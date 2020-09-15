@@ -3,8 +3,8 @@
 katz_deli = []
 
 def line(people)
-  line_array 
-  if line.length == 0
+  line_array = 0
+  if people.length == 0
     puts "The line is currently empty."
  else
    line.each.with_index(0) do |name, index|
