@@ -16,7 +16,7 @@ end
   
   
 def take_a_number(katz_deli, name)
-  if line_length >
+  katz_deli.push
     
   end
 
