@@ -9,7 +9,7 @@ def line
    line.length.each do |name, index|
      line.length << #{index}. #{name}
     end
-    puts
+    puts "Thhe line is "
  end 
   
   
