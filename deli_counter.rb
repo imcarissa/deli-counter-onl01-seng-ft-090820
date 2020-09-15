@@ -3,7 +3,7 @@
 def line
   katz_deli = []
   
-  if line >= 1
+  if line.length >= 1
   else
     puts "The line is currently empty."
   
