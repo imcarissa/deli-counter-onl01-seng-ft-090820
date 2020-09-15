@@ -1,6 +1,6 @@
 # Write your code here.
 
-def line
+def line(line_length)
   katz_deli = []
   
   if line_length == 0
