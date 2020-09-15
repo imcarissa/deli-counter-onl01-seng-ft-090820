@@ -12,7 +12,7 @@ def line(people)
    people.each.with_index(1) do |name, index|
      line_array.push("#{index}. #{name}")
     end
-    puts "The line is: #{line_array.join(" ")}"
+    puts "The line is currently: #{line_array.join(" ")}"
   end
 end
   
@@ -26,6 +26,7 @@ def take_a_number(katz_deli, name)
 
 def now_serving(next_in_line)
   if next_in_line.empty?
+    puts "There is nobody waiting to be served."
   end
 
 end
