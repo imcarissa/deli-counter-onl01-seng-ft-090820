@@ -7,7 +7,7 @@ def line
     puts "The line is currently empty."
  else
    line.length.each do |name, index|
-     line.length
+     line.length <<
  end 
   
   
