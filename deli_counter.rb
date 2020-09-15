@@ -7,5 +7,5 @@ def line
   else
     puts "The line is currently empty."
   
-  elsif
+def take_a_number(katz_deli, name)
 end
