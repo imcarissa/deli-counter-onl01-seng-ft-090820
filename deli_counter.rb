@@ -8,4 +8,6 @@ def line
     puts "The line is currently empty."
   
 def take_a_number(katz_deli, name)
+  if line.length >
+    
 end
