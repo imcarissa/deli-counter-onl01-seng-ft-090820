@@ -1,15 +1,15 @@
 # Write your code here.
 
-def line(line_length)
+def line
   katz_deli = []
   
   if line.length == 0
     puts "The line is currently empty."
  else
-   line_length.each.with_index(0) do |name, index|
-     line_length.push("#{index}. #{name}")
+   line.each.with_index(0) do |name, index|
+     line.push("#{index}. #{name}")
     end
-    puts "The line is: #{line_length.join(" ")}"
+    puts "The line is: #{line.join(" ")}"
   end
 end
   
