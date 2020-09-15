@@ -6,7 +6,7 @@ def line
   if line.length == 0
   else
     puts "The line is currently empty."
-end 
+ end 
   
   
   
