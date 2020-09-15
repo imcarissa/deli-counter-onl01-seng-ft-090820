@@ -10,7 +10,8 @@ def line
      line_length.push("#{index}. #{name}")
     end
     puts "The line is: #{line_length.join(" ")}"
- end 
+  end
+end
   
   
   
