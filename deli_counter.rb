@@ -15,7 +15,7 @@ def line
 def take_a_number(katz_deli, name)
   if line.length >
     
-end
+  end
 
 
 def now_serving
