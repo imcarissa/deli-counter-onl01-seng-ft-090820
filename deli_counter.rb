@@ -7,7 +7,7 @@ def line
     puts "The line is currently empty."
  else
    line_length.each.with_index(0) do |name, index|
-     line.length << "#{index}. #{name}"
+     line_length << "#{index}. #{name}"
     end
     puts "The line is #{line_length.join(" ")}"
  end 
@@ -15,7 +15,7 @@ def line
   
   
 def take_a_number(katz_deli, name)
-  if line.length >
+  if line_length >
     
   end
 
