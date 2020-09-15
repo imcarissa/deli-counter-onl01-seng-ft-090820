@@ -2,7 +2,7 @@
 
 katz_deli = []
 
-def line(x)
+def line(people)
   if line.length == 0
     puts "The line is currently empty."
  else
