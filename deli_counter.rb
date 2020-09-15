@@ -6,7 +6,7 @@ def line
   if line_length == 0
     puts "The line is currently empty."
  else
-   line_length.each do |name, index|
+   line_length.each.with_index do |name, index|
      line.length << #{index}. #{name}
     end
     puts "The line is #{line_length.join(" ")"
