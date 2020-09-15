@@ -6,7 +6,7 @@ def line
   if line.length == 0
     puts "The line is currently empty."
  else
-   line.length.each
+   line.length.each do |
  end 
   
   
