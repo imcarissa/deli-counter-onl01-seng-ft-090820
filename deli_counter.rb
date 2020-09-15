@@ -27,6 +27,8 @@ def take_a_number(katz_deli, name)
 def now_serving(next_in_line)
   if next_in_line.empty?
     puts "There is nobody waiting to be served."
+  else
+    puts ""
   end
 
 end
