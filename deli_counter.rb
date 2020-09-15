@@ -9,7 +9,7 @@ def line
    line_length.each.with_index(0) do |name, index|
      line_length.push("#{index}. #{name}")
     end
-    puts "The line is #{line_length.join(" ")}"
+    puts "The line is: #{line_length.join(" ")}"
  end 
   
   
