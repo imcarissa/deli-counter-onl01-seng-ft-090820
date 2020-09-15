@@ -10,7 +10,7 @@ def line(people)
    people.each.with_index(1) do |name, index|
      line_array.push("#{index}. #{name}")
     end
-    puts "The line is: #{line.join(" ")}"
+    puts "The line is: #{line_array.join(" ")}"
   end
 end
   
