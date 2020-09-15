@@ -8,7 +8,7 @@ def line(people)
     puts "The line is currently empty."
  else
    people.each.with_index(1) do |name, index|
-     line.push("#{index}. #{name}")
+     line_array.push("#{index}. #{name}")
     end
     puts "The line is: #{line.join(" ")}"
   end
