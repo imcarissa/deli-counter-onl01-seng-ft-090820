@@ -7,7 +7,7 @@ def line
     puts "The line is currently empty."
  else
    line_length.each.with_index(0) do |name, index|
-     line.length << "#{index}. #{name}
+     line.length << "#{index}. #{name}""
     end
     puts "The line is #{line_length.join(" ")}"
  end 
