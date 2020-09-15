@@ -3,13 +3,13 @@
 def line
   katz_deli = []
   
-  if line.length == 0
+  if line_length == 0
     puts "The line is currently empty."
  else
-   line.length.each do |name, index|
+   line_length.each do |name, index|
      line.length << #{index}. #{name}
     end
-    puts "Thhe line is #{line.length.join"
+    puts "The line is #{line_length.join"
  end 
   
   
