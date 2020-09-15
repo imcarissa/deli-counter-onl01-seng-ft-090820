@@ -20,4 +20,6 @@ def take_a_number(katz_deli, name)
 
 def now_serving
   
+  end
+
 end
