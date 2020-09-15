@@ -9,7 +9,7 @@ def line
    line_length.each do |name, index|
      line.length << #{index}. #{name}
     end
-    puts "The line is #{line_length.join"
+    puts "The line is #{line_length.join(",""
  end 
   
   
