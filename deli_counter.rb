@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line
-  katz_deli_line = []
+  katz_deli = []
   
   if line >= 1
   else
